@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html data-theme="corporate">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  </head>
+  <body>
+    <!-- navbar  -->
+    <header
+      class="md:h-screen md:flex flex-col bg-cover bg-center bg-gradient-to-r from--900 to-orange-400"
+      style="
+        background-image: linear-gradient(
+            to bottom,
+            rgba(245, 246, 252, 0.52),
+            rgba(238, 236, 238, 0.73)
+          ),
+          url('../hero.jpg');
+      "
+    >
+      <div class="bg-black bg-opacity-5">
+        <div class="container mx-auto">
+          <div class="navbar">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost btn-circle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-36 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h7"
+                    />
+                  </svg>
+                </label>
+                <ul
+                  tabindex="0"
+                  class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+                >
+                  <li><a>Homepage</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>About</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="navbar-center">
+              <a class="btn btn-ghost normal-case text-xl">ShapeWays</a>
+            </div>
+            <div class="navbar-end">
+              <button class="btn btn-ghost btn-circle">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
+                </svg>
+              </button>
+              <button class="btn btn-ghost btn-circle">
+                <div class="indicator">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
+                    />
+                  </svg>
+                  <span
+                    class="badge badge-xs badge-primary indicator-item"
+                  ></span>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- hero section -->
+      <div class="container mx-auto flex items-center flex-grow">
+        <div class="md:flex">
+          <div class="left">
+            <lottie-player
+              src="https://assets7.lottiefiles.com/packages/lf20_vu2p4il8.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+              class="md:w-max -mt-14 md:-mt-0"
+            ></lottie-player>
+          </div>
+          <div
+            class="right flex flex-col justify-center -mt-16 md:-mt-0 md:text-left p-5"
+          >
+            <h1
+              class="md:text-5xl text-2xl font-bold text-slate-900 md:leading-tight"
+            >
+              Build Your Robot Cell Today. <br />
+              Receive It Tomorrow. One cloud platform to design, automate, order
+              and deploy robot cells
+            </h1>
+            <h5 class="md:text-2xl text-xl text-slate-800 my-2 md:my-5">
+              One cloud platform to design, automate, order and deploy robot
+              cells
+            </h5>
+            <div class="flex gap-3">
+              <div class="btn">Design Now</div>
+              <div class="btn">Buy Now</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- hero section -->
+    </header>
+    <!-- navbar  -->
+
+    <!-- our services -->
+    <div class="feature-1">
+      <div class="container px-20 py-10 mx-auto">
+        <h1
+          class="text-3xl font-medium title-font text-gray-900 mb-12 text-center"
+        >
+          Why We Are!
+        </h1>
+        <div class="md:flex justify-around md:-mx-4 mt-12 md:pt-4">
+          <div class="px-4 md:w-1/3 mt-6 md:mt-0">
+            <div
+              class="feature-box text-center p-4 md:p-6 max-w-sm mx-auto border-2 border-solid border-gray-300 rounded md:h-full"
+            >
+              <div class="text-xl p-4 w-16 h-16 mx-auto">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3 8.688c0-.864.933-1.405 1.683-.977l7.108 4.062a1.125 1.125 0 010 1.953l-7.108 4.062A1.125 1.125 0 013 16.81V8.688zM12.75 8.688c0-.864.933-1.405 1.683-.977l7.108 4.062a1.125 1.125 0 010 1.953l-7.108 4.062a1.125 1.125 0 01-1.683-.977V8.688z"
+                  />
+                </svg>
+              </div>
+              <h5 class="text-xl font-medium mb-4">Fresh Design</h5>
+              <p class="text-gray-600 mb-3">
+                FWR blocks bring in an air of fresh design with their creative
+                layouts and blocks, which are easily customizable.
+              </p>
+            </div>
+          </div>
+          <div class="px-4 md:w-1/3 mt-6 md:mt-0">
+            <div
+              class="feature-box text-center p-4 md:p-6 max-w-sm mx-auto border-2 border-solid border-gray-300 rounded md:h-full"
+            >
+              <div class="text-xl p-4 w-16 h-16 mx-auto">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z"
+                  />
+                </svg>
+              </div>
+              <h5 class="text-xl font-medium mb-4">Clean Code</h5>
+              <p class="text-gray-600 mb-3">
+                FWR blocks are the cleanest pieces of HTML blocks, which are
+                built with utmost care to quality and usability.
+              </p>
+            </div>
+          </div>
+          <div class="px-4 md:w-1/3 mt-6 md:mt-0">
+            <div
+              class="feature-box text-center p-4 md:p-6 max-w-sm mx-auto border-2 border-solid border-gray-300 rounded md:h-full"
+            >
+              <div class="text-xl p-4 w-16 h-16 mx-auto">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"
+                  />
+                </svg>
+              </div>
+              <h5 class="text-xl font-medium mb-4">Perfect Tool</h5>
+              <p class="text-gray-600 mb-3">
+                FWR blocks is a perfect tool for designers, developers and
+                agencies looking to create stunning websites in no time.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- testimonial -->
+    <section class="text-gray-600">
+      <div class="container px-20 py-10 mx-auto">
+        <h1
+          class="text-3xl font-medium title-font text-gray-900 mb-12 text-center"
+        >
+          Testimonials
+        </h1>
+        <div class="flex flex-wrap -m-4">
+          <div class="p-4 md:w-1/4 w-full">
+            <div class="h-full bg-gray-100 p-8 rounded">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="block w-5 h-5 text-gray-400 mb-4"
+                viewBox="0 0 975.036 975.036"
+              >
+                <path
+                  d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+                ></path>
+              </svg>
+              <p class="leading-relaxed mb-6">
+                Synth chartreuse iPhone lomo cray raw denim brunch everyday
+                carry neutra before they sold out fixie 90's microdosing. Tacos
+                pinterest fanny pack venmo, post-ironic heirloom try-hard pabst
+                authentic iceland.
+              </p>
+              <a class="inline-flex items-center">
+                <img
+                  alt="testimonial"
+                  src="https://dummyimage.com/106x106"
+                  class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                />
+                <span class="flex-grow flex flex-col pl-4">
+                  <span class="title-font font-medium text-gray-900"
+                    >Holden Caulfield</span
+                  >
+                  <span class="text-gray-500 text-sm">UI DEVELOPER</span>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/4 w-full">
+            <div class="h-full bg-gray-100 p-8 rounded">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="block w-5 h-5 text-gray-400 mb-4"
+                viewBox="0 0 975.036 975.036"
+              >
+                <path
+                  d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+                ></path>
+              </svg>
+              <p class="leading-relaxed mb-6">
+                Synth chartreuse iPhone lomo cray raw denim brunch everyday
+                carry neutra before they sold out fixie 90's microdosing. Tacos
+                pinterest fanny pack venmo, post-ironic heirloom try-hard pabst
+                authentic iceland.
+              </p>
+              <a class="inline-flex items-center">
+                <img
+                  alt="testimonial"
+                  src="https://dummyimage.com/106x106"
+                  class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                />
+                <span class="flex-grow flex flex-col pl-4">
+                  <span class="title-font font-medium text-gray-900"
+                    >Holden Caulfield</span
+                  >
+                  <span class="text-gray-500 text-sm">UI DEVELOPER</span>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/4 w-full">
+            <div class="h-full bg-gray-100 p-8 rounded">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="block w-5 h-5 text-gray-400 mb-4"
+                viewBox="0 0 975.036 975.036"
+              >
+                <path
+                  d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+                ></path>
+              </svg>
+              <p class="leading-relaxed mb-6">
+                Synth chartreuse iPhone lomo cray raw denim brunch everyday
+                carry neutra before they sold out fixie 90's microdosing. Tacos
+                pinterest fanny pack venmo, post-ironic heirloom try-hard pabst
+                authentic iceland.
+              </p>
+              <a class="inline-flex items-center">
+                <img
+                  alt="testimonial"
+                  src="https://dummyimage.com/107x107"
+                  class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                />
+                <span class="flex-grow flex flex-col pl-4">
+                  <span class="title-font font-medium text-gray-900"
+                    >Alper Kamu</span
+                  >
+                  <span class="text-gray-500 text-sm">DESIGNER</span>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/4 w-full">
+            <div class="h-full bg-gray-100 p-8 rounded">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="block w-5 h-5 text-gray-400 mb-4"
+                viewBox="0 0 975.036 975.036"
+              >
+                <path
+                  d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+                ></path>
+              </svg>
+              <p class="leading-relaxed mb-6">
+                Synth chartreuse iPhone lomo cray raw denim brunch everyday
+                carry neutra before they sold out fixie 90's microdosing. Tacos
+                pinterest fanny pack venmo, post-ironic heirloom try-hard pabst
+                authentic iceland.
+              </p>
+              <a class="inline-flex items-center">
+                <img
+                  alt="testimonial"
+                  src="https://dummyimage.com/107x107"
+                  class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                />
+                <span class="flex-grow flex flex-col pl-4">
+                  <span class="title-font font-medium text-gray-900"
+                    >Alper Kamu</span
+                  >
+                  <span class="text-gray-500 text-sm">DESIGNER</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonial -->
+
+    <div class="container px-20 py-10 mx-auto">
+      <h1
+        class="text-3xl font-medium title-font text-gray-900 mb-12 text-center"
+      >
+        Our Clients
+      </h1>
+      <div class="flex flex-wrap gap-5 justify-around">
+        <div class="w-36">
+          <img
+            class="w-full"
+            src="https://i.ibb.co/N92D9G3/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Logo-design-proposals-removebg-preview.png"
+            alt="Logo"
+          />
+        </div>
+        <div class="w-36">
+          <img
+            class="w-100"
+            src="https://i.ibb.co/G31gG9y/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Create-a-logo-removebg-preview.png"
+            alt="Logo"
+          />
+        </div>
+        <div class="w-36">
+          <img
+            class="w-100"
+            src="https://i.ibb.co/jkSTBVP/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Logo-design-proposals-2-removebg-preview.png"
+            alt="Logo"
+          />
+        </div>
+        <div class="w-36">
+          <img
+            class="w-100"
+            src="https://i.ibb.co/KNFTLHv/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Logo-design-proposals-1.png"
+            alt="Logo"
+          />
+        </div>
+        <div class="w-36">
+          <img
+            class="w-100"
+            src="https://i.ibb.co/G31gG9y/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Create-a-logo-removebg-preview.png"
+            alt="Logo"
+          />
+        </div>
+        <div class="w-36">
+          <img
+            class="w-100"
+            src="https://i.ibb.co/G31gG9y/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Create-a-logo-removebg-preview.png"
+            alt="Logo"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- our shop  -->
+    <div class="container mx-auto px-20">
+      <h2 class="text-3xl my-4">
+        <span class="text-green-500 font-bold inline-block py-1 rounded"
+          >Our</span
+        >
+        Shop
+      </h2>
+      <div class="flex">
+        <div class="hidden md:block">
+          <h2>CATEGORIES</h2>
+          <div class="px-3 py-2 shadow-md">Display Kits</div>
+          <div class="px-3 py-2 shadow-md">Battery</div>
+          <div class="px-3 py-2 shadow-md">Capacitor</div>
+          <div class="px-3 py-2 shadow-md">Integrated Circuits (IC)</div>
+          <div class="px-3 py-2 shadow-md">Integrated Circuits (IC)</div>
+        </div>
+        <!-- shop items -->
+        <div class="flex flex-wrap items-center justify-center w-11/12">
+          <div
+            class="flex-shrink-0 m-6 relative overflow-hidden bg-orange-500 rounded-lg w-100 shadow-lg"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+              <div
+                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                style="
+                  background: radial-gradient(black, transparent 60%);
+                  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
+                  opacity: 0.2;
+                "
+              ></div>
+              <img
+                class="relative w-40"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+              <span class="block opacity-75 -mb-1">Indoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold text-xl">Peace Lily</span>
+                <span
+                  class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex-shrink-0 m-6 relative overflow-hidden bg-teal-500 rounded-lg max-w-xs shadow-lg"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+              <div
+                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                style="
+                  background: radial-gradient(black, transparent 60%);
+                  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
+                  opacity: 0.2;
+                "
+              ></div>
+              <img
+                class="relative w-40"
+                src="https://user-images.githubusercontent.com/2805249/64069998-305de300-cc9a-11e9-8ae7-5a0fe00299f2.png"
+                alt=""
+              />
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+              <span class="block opacity-75 -mb-1">Outdoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold text-xl">Monstera</span>
+                <span
+                  class="block bg-white rounded-full text-teal-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$45.00</span
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+              <div
+                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                style="
+                  background: radial-gradient(black, transparent 60%);
+                  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
+                  opacity: 0.2;
+                "
+              ></div>
+              <img
+                class="relative w-40"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+              <span class="block opacity-75 -mb-1">Outdoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold text-xl">Oak Tree</span>
+                <span
+                  class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$68.50</span
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+              <div
+                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                style="
+                  background: radial-gradient(black, transparent 60%);
+                  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
+                  opacity: 0.2;
+                "
+              ></div>
+              <img
+                class="relative w-40"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+              <span class="block opacity-75 -mb-1">Outdoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold text-xl">Oak Tree</span>
+                <span
+                  class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$68.50</span
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+              <div
+                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                style="
+                  background: radial-gradient(black, transparent 60%);
+                  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
+                  opacity: 0.2;
+                "
+              ></div>
+              <img
+                class="relative w-40"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+              <span class="block opacity-75 -mb-1">Outdoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold text-xl">Oak Tree</span>
+                <span
+                  class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$68.50</span
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+              <div
+                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                style="
+                  background: radial-gradient(black, transparent 60%);
+                  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
+                  opacity: 0.2;
+                "
+              ></div>
+              <img
+                class="relative w-40"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+              <span class="block opacity-75 -mb-1">Outdoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold text-xl">Oak Tree</span>
+                <span
+                  class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$68.50</span
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+              <div
+                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                style="
+                  background: radial-gradient(black, transparent 60%);
+                  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
+                  opacity: 0.2;
+                "
+              ></div>
+              <img
+                class="relative w-40"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+              <span class="block opacity-75 -mb-1">Outdoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold text-xl">Oak Tree</span>
+                <span
+                  class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$68.50</span
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+              <div
+                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                style="
+                  background: radial-gradient(black, transparent 60%);
+                  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
+                  opacity: 0.2;
+                "
+              ></div>
+              <img
+                class="relative w-40"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+              <span class="block opacity-75 -mb-1">Outdoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold text-xl">Oak Tree</span>
+                <span
+                  class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$68.50</span
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+              <div
+                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                style="
+                  background: radial-gradient(black, transparent 60%);
+                  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
+                  opacity: 0.2;
+                "
+              ></div>
+              <img
+                class="relative w-40"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+              <span class="block opacity-75 -mb-1">Outdoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold text-xl">Oak Tree</span>
+                <span
+                  class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$68.50</span
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+              <div
+                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                style="
+                  background: radial-gradient(black, transparent 60%);
+                  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
+                  opacity: 0.2;
+                "
+              ></div>
+              <img
+                class="relative w-40"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+              <span class="block opacity-75 -mb-1">Outdoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold text-xl">Oak Tree</span>
+                <span
+                  class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$68.50</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer p-10 bg-base-200 text-base-content">
+      <div class="container mx-auto md:px-20">
+        <svg
+          width="50"
+          height="50"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          class="fill-current"
+        >
+          <path
+            d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"
+          ></path>
+        </svg>
+        <p>ACME Industries Ltd.<br />Providing reliable tech since 1992</p>
+      </div>
+      <div>
+        <span class="footer-title">Services</span>
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </div>
+      <div>
+        <span class="footer-title">Company</span>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </div>
+      <div>
+        <span class="footer-title">Legal</span>
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </div>
+    </footer>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.49.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </body>
+</html>

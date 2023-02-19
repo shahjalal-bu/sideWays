@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .animation-container {
+        width: 450px;
+        height: 450px;
+        margin: auto;
+        border: 1px solid red;
+        position: relative;
+      }
+      .line {
+        width: 300px;
+        height: 50px;
+        margin-bottom: 35px;
+        transform: rotate(-45deg);
+        /* transform-origin: center; */
+        border-radius: 50px;
+      }
+      .line-container {
+        position: absolute;
+        bottom: 86px;
+        left: 61px;
+        
+      }
+      .line-1 {
+        background: lime;
+        /* animation: name duration timing-function delay iteration-count direction fill-mode;
+         */
+        animation: slidein 2s;
+        animation-timing-function: ease-out;
+        animation-delay: 0s;
+        /* animation-iteration-count: infinite; */
+       
+      }
+      .line-2 {
+        background: teal;
+        animation: slidein 2s;
+        animation-timing-function: ease-out;
+        animation-delay: 0s;
+        /* animation-iteration-count: infinite; */
+      }
+      .line-3 {
+        background-color: coral;
+        animation: slidein 2s;
+        animation-timing-function: ease-out;
+        animation-delay: 0s;
+        /* animation-iteration-count: infinite; */
+      }
+
+      @keyframes slidein {
+        from {
+          width: 0px;
+          
+        }
+        to {
+          width: 300px;
+    
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="animation-container">
+      <div class="line-container">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+      </div>
+    </div>
+  </body>
+</html>

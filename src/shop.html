@@ -151,6 +151,11 @@
     <section id="hero">
       <div class="container flex gap-5 px-5 py-2 md:py-3 md:px-20 mx-auto">
         <div class="w-2/12 hidden sm:block">
+          <div
+            class="flex justify-between pt-3 pb-2 border-b-2 border-gray-200 mb-2 items-center"
+          >
+            <div class="sm:text-2xl font-bold">All Categories</div>
+          </div>
           <ul class="menu bg-gray-100 p-2 rounded-box">
             <li>
               <a>
@@ -364,6 +369,24 @@
           </ul>
         </div>
         <div class="flex-1">
+          <div
+            class="flex justify-between pt-3 pb-2 border-b-2 border-gray-200 mb-2 items-center"
+          >
+            <div class="sm:flex items-center sm:gap-20">
+              <div class="sm:text-2xl font-bold">Deals Of The Day</div>
+              <div class="flex sm:gap-5">
+                <div class="mr-2 text-lg font-bold">Ends after:</div>
+                <div class="py-0.5 px-2 bg-orange-400 rounded">
+                  <span>10</span>h <span>20</span>m <span>24</span>s
+                </div>
+              </div>
+            </div>
+            <div>
+              <a href="./" class="transition-all hover:text-orange-400"
+                >View All</a
+              >
+            </div>
+          </div>
           <div class="flex flex-wrap gap-2">
             <div
               class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
@@ -969,28 +992,24 @@
         </div>
       </div>
     </section>
-
-    <!-- our shop  -->
-    <div class="container mx-auto px-20">
-      <h2 class="text-3xl my-4">
-        <span class="text-green-500 font-bold inline-block py-1 rounded"
-          >Our</span
+    <!-- tranding product -->
+     <section>
+      <div class="container px-5 sm:px-20 mx-auto">
+        <div
+          class="flex justify-between pt-3 pb-2 border-b-2 border-gray-200 mb-2 items-center"
         >
-        Shop
-      </h2>
-      <div class="flex">
-        <div class="hidden md:block">
-          <h2>CATEGORIES</h2>
-          <div class="px-3 py-2 shadow-md">Display Kits</div>
-          <div class="px-3 py-2 shadow-md">Battery</div>
-          <div class="px-3 py-2 shadow-md">Capacitor</div>
-          <div class="px-3 py-2 shadow-md">Integrated Circuits (IC)</div>
-          <div class="px-3 py-2 shadow-md">Integrated Circuits (IC)</div>
+          <div class="sm:flex items-center sm:gap-20">
+            <div class="sm:text-2xl font-bold">Tranding Products</div>
+          </div>
+          <div>
+            <a href="./" class="transition-all hover:text-orange-400"
+              >View All</a
+            >
+          </div>
         </div>
-        <!-- shop items -->
-        <div class="flex flex-wrap items-center justify-center w-11/12">
+        <div class="flex flex-wrap gap-2">
           <div
-            class="flex-shrink-0 m-6 relative overflow-hidden bg-orange-500 rounded-lg w-100 shadow-lg"
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
           >
             <svg
               class="absolute bottom-0 left-0 mb-8"
@@ -1016,34 +1035,31 @@
                 fill="white"
               />
             </svg>
-            <div class="relative pt-10 px-10 flex items-center justify-center">
-              <div
-                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
-                style="
-                  background: radial-gradient(black, transparent 60%);
-                  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
-                  opacity: 0.2;
-                "
-              ></div>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
               <img
-                class="relative w-40"
+                class="flex-1 relative w-28"
                 src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
                 alt=""
               />
             </div>
-            <div class="relative text-white px-6 pb-6 mt-6">
+            <div class="flex-1 relative text-white px-3 mt-3">
               <span class="block opacity-75 -mb-1">Indoor</span>
               <div class="flex justify-between">
-                <span class="block font-semibold text-xl">Peace Lily</span>
+                <span class="block font-semibold">Peace Lily</span>
                 <span
-                  class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
                   >$36.00</span
                 >
               </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
             </div>
           </div>
           <div
-            class="flex-shrink-0 m-6 relative overflow-hidden bg-teal-500 rounded-lg max-w-xs shadow-lg"
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
           >
             <svg
               class="absolute bottom-0 left-0 mb-8"
@@ -1069,87 +1085,31 @@
                 fill="white"
               />
             </svg>
-            <div class="relative pt-10 px-10 flex items-center justify-center">
-              <div
-                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
-                style="
-                  background: radial-gradient(black, transparent 60%);
-                  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
-                  opacity: 0.2;
-                "
-              ></div>
-              <img
-                class="relative w-40"
-                src="https://user-images.githubusercontent.com/2805249/64069998-305de300-cc9a-11e9-8ae7-5a0fe00299f2.png"
-                alt=""
-              />
-            </div>
-            <div class="relative text-white px-6 pb-6 mt-6">
-              <span class="block opacity-75 -mb-1">Outdoor</span>
-              <div class="flex justify-between">
-                <span class="block font-semibold text-xl">Monstera</span>
-                <span
-                  class="block bg-white rounded-full text-teal-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
-                  >$45.00</span
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg"
-          >
-            <svg
-              class="absolute bottom-0 left-0 mb-8"
-              viewBox="0 0 375 283"
-              fill="none"
-              style="transform: scale(1.5); opacity: 0.1"
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
             >
-              <rect
-                x="159.52"
-                y="175"
-                width="152"
-                height="152"
-                rx="8"
-                transform="rotate(-45 159.52 175)"
-                fill="white"
-              />
-              <rect
-                y="107.48"
-                width="152"
-                height="152"
-                rx="8"
-                transform="rotate(-45 0 107.48)"
-                fill="white"
-              />
-            </svg>
-            <div class="relative pt-10 px-10 flex items-center justify-center">
-              <div
-                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
-                style="
-                  background: radial-gradient(black, transparent 60%);
-                  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
-                  opacity: 0.2;
-                "
-              ></div>
               <img
-                class="relative w-40"
+                class="flex-1 relative w-28"
                 src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
                 alt=""
               />
             </div>
-            <div class="relative text-white px-6 pb-6 mt-6">
-              <span class="block opacity-75 -mb-1">Outdoor</span>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
               <div class="flex justify-between">
-                <span class="block font-semibold text-xl">Oak Tree</span>
+                <span class="block font-semibold">Peace Lily</span>
                 <span
-                  class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
-                  >$68.50</span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
                 >
               </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
             </div>
           </div>
           <div
-            class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg"
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
           >
             <svg
               class="absolute bottom-0 left-0 mb-8"
@@ -1175,34 +1135,31 @@
                 fill="white"
               />
             </svg>
-            <div class="relative pt-10 px-10 flex items-center justify-center">
-              <div
-                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
-                style="
-                  background: radial-gradient(black, transparent 60%);
-                  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
-                  opacity: 0.2;
-                "
-              ></div>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
               <img
-                class="relative w-40"
+                class="flex-1 relative w-28"
                 src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
                 alt=""
               />
             </div>
-            <div class="relative text-white px-6 pb-6 mt-6">
-              <span class="block opacity-75 -mb-1">Outdoor</span>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
               <div class="flex justify-between">
-                <span class="block font-semibold text-xl">Oak Tree</span>
+                <span class="block font-semibold">Peace Lily</span>
                 <span
-                  class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
-                  >$68.50</span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
                 >
               </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
             </div>
           </div>
           <div
-            class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg"
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
           >
             <svg
               class="absolute bottom-0 left-0 mb-8"
@@ -1228,34 +1185,31 @@
                 fill="white"
               />
             </svg>
-            <div class="relative pt-10 px-10 flex items-center justify-center">
-              <div
-                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
-                style="
-                  background: radial-gradient(black, transparent 60%);
-                  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
-                  opacity: 0.2;
-                "
-              ></div>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
               <img
-                class="relative w-40"
+                class="flex-1 relative w-28"
                 src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
                 alt=""
               />
             </div>
-            <div class="relative text-white px-6 pb-6 mt-6">
-              <span class="block opacity-75 -mb-1">Outdoor</span>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
               <div class="flex justify-between">
-                <span class="block font-semibold text-xl">Oak Tree</span>
+                <span class="block font-semibold">Peace Lily</span>
                 <span
-                  class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
-                  >$68.50</span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
                 >
               </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
             </div>
           </div>
           <div
-            class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg"
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
           >
             <svg
               class="absolute bottom-0 left-0 mb-8"
@@ -1281,34 +1235,31 @@
                 fill="white"
               />
             </svg>
-            <div class="relative pt-10 px-10 flex items-center justify-center">
-              <div
-                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
-                style="
-                  background: radial-gradient(black, transparent 60%);
-                  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
-                  opacity: 0.2;
-                "
-              ></div>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
               <img
-                class="relative w-40"
+                class="flex-1 relative w-28"
                 src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
                 alt=""
               />
             </div>
-            <div class="relative text-white px-6 pb-6 mt-6">
-              <span class="block opacity-75 -mb-1">Outdoor</span>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
               <div class="flex justify-between">
-                <span class="block font-semibold text-xl">Oak Tree</span>
+                <span class="block font-semibold">Peace Lily</span>
                 <span
-                  class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
-                  >$68.50</span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
                 >
               </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
             </div>
           </div>
           <div
-            class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg"
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
           >
             <svg
               class="absolute bottom-0 left-0 mb-8"
@@ -1334,34 +1285,31 @@
                 fill="white"
               />
             </svg>
-            <div class="relative pt-10 px-10 flex items-center justify-center">
-              <div
-                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
-                style="
-                  background: radial-gradient(black, transparent 60%);
-                  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
-                  opacity: 0.2;
-                "
-              ></div>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
               <img
-                class="relative w-40"
+                class="flex-1 relative w-28"
                 src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
                 alt=""
               />
             </div>
-            <div class="relative text-white px-6 pb-6 mt-6">
-              <span class="block opacity-75 -mb-1">Outdoor</span>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
               <div class="flex justify-between">
-                <span class="block font-semibold text-xl">Oak Tree</span>
+                <span class="block font-semibold">Peace Lily</span>
                 <span
-                  class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
-                  >$68.50</span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
                 >
               </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
             </div>
           </div>
           <div
-            class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg"
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
           >
             <svg
               class="absolute bottom-0 left-0 mb-8"
@@ -1387,34 +1335,31 @@
                 fill="white"
               />
             </svg>
-            <div class="relative pt-10 px-10 flex items-center justify-center">
-              <div
-                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
-                style="
-                  background: radial-gradient(black, transparent 60%);
-                  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
-                  opacity: 0.2;
-                "
-              ></div>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
               <img
-                class="relative w-40"
+                class="flex-1 relative w-28"
                 src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
                 alt=""
               />
             </div>
-            <div class="relative text-white px-6 pb-6 mt-6">
-              <span class="block opacity-75 -mb-1">Outdoor</span>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
               <div class="flex justify-between">
-                <span class="block font-semibold text-xl">Oak Tree</span>
+                <span class="block font-semibold">Peace Lily</span>
                 <span
-                  class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
-                  >$68.50</span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
                 >
               </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
             </div>
           </div>
           <div
-            class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg"
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
           >
             <svg
               class="absolute bottom-0 left-0 mb-8"
@@ -1440,34 +1385,31 @@
                 fill="white"
               />
             </svg>
-            <div class="relative pt-10 px-10 flex items-center justify-center">
-              <div
-                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
-                style="
-                  background: radial-gradient(black, transparent 60%);
-                  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
-                  opacity: 0.2;
-                "
-              ></div>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
               <img
-                class="relative w-40"
+                class="flex-1 relative w-28"
                 src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
                 alt=""
               />
             </div>
-            <div class="relative text-white px-6 pb-6 mt-6">
-              <span class="block opacity-75 -mb-1">Outdoor</span>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
               <div class="flex justify-between">
-                <span class="block font-semibold text-xl">Oak Tree</span>
+                <span class="block font-semibold">Peace Lily</span>
                 <span
-                  class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
-                  >$68.50</span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
                 >
               </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
             </div>
           </div>
           <div
-            class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg"
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
           >
             <svg
               class="absolute bottom-0 left-0 mb-8"
@@ -1493,36 +1435,803 @@
                 fill="white"
               />
             </svg>
-            <div class="relative pt-10 px-10 flex items-center justify-center">
-              <div
-                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
-                style="
-                  background: radial-gradient(black, transparent 60%);
-                  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
-                  opacity: 0.2;
-                "
-              ></div>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
               <img
-                class="relative w-40"
+                class="flex-1 relative w-28"
                 src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
                 alt=""
               />
             </div>
-            <div class="relative text-white px-6 pb-6 mt-6">
-              <span class="block opacity-75 -mb-1">Outdoor</span>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
               <div class="flex justify-between">
-                <span class="block font-semibold text-xl">Oak Tree</span>
+                <span class="block font-semibold">Peace Lily</span>
                 <span
-                  class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
-                  >$68.50</span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
                 >
               </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
+              <img
+                class="flex-1 relative w-28"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold">Peace Lily</span>
+                <span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
+                >
+              </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
+              <img
+                class="flex-1 relative w-28"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold">Peace Lily</span>
+                <span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
+                >
+              </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
+              <img
+                class="flex-1 relative w-28"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold">Peace Lily</span>
+                <span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
+                >
+              </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <footer class="footer p-10 bg-base-200 text-base-content">
+    </section> 
+    <!-- Recent product -->
+    <section class="my-10">
+      <div class="container px-5 sm:px-20 mx-auto">
+        <div
+          class="flex justify-between pt-3 pb-2 border-b-2 border-gray-200 mb-2 items-center"
+        >
+          <div class="sm:flex items-center sm:gap-20">
+            <div class="sm:text-2xl font-bold">Recendly Added</div>
+          </div>
+          <div>
+            <a href="./" class="transition-all hover:text-orange-400"
+              >View All</a
+            >
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-2">
+          <div
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
+              <img
+                class="flex-1 relative w-28"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold">Peace Lily</span>
+                <span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
+                >
+              </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
+              <img
+                class="flex-1 relative w-28"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold">Peace Lily</span>
+                <span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
+                >
+              </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
+              <img
+                class="flex-1 relative w-28"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold">Peace Lily</span>
+                <span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
+                >
+              </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
+              <img
+                class="flex-1 relative w-28"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold">Peace Lily</span>
+                <span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
+                >
+              </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
+              <img
+                class="flex-1 relative w-28"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold">Peace Lily</span>
+                <span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
+                >
+              </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
+              <img
+                class="flex-1 relative w-28"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold">Peace Lily</span>
+                <span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
+                >
+              </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
+              <img
+                class="flex-1 relative w-28"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold">Peace Lily</span>
+                <span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
+                >
+              </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
+              <img
+                class="flex-1 relative w-28"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold">Peace Lily</span>
+                <span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
+                >
+              </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
+              <img
+                class="flex-1 relative w-28"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold">Peace Lily</span>
+                <span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
+                >
+              </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
+              <img
+                class="flex-1 relative w-28"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold">Peace Lily</span>
+                <span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
+                >
+              </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
+              <img
+                class="flex-1 relative w-28"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold">Peace Lily</span>
+                <span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
+                >
+              </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="relative overflow-hidden bg-gray-400 rounded-lg w-100 shadow-lg flex-1 min-w-fit"
+          >
+            <svg
+              class="absolute bottom-0 left-0 mb-8"
+              viewBox="0 0 375 283"
+              fill="none"
+              style="transform: scale(1.5); opacity: 0.1"
+            >
+              <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+              />
+              <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+              />
+            </svg>
+            <div
+              class="flex-1 relative pt-8 px-8 flex items-center justify-center"
+            >
+              <img
+                class="flex-1 relative w-28"
+                src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1 relative text-white px-3 mt-3">
+              <span class="block opacity-75 -mb-1">Indoor</span>
+              <div class="flex justify-between">
+                <span class="block font-semibold">Peace Lily</span>
+                <span
+                  class="bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center"
+                  >$36.00</span
+                >
+              </div>
+              <button class="bg-slate-900 py-2 px-2 my-2 w-full">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <footer class="footer p-10 bg-slate-800 text-white">
       <div class="container mx-auto md:px-20">
         <svg
           width="50"
